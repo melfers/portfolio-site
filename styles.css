@@ -8,16 +8,18 @@ body {
   color: #444;
   text-align: center;
   line-height: 1.5;
+  background-color: #fae2e6;
+  margin: 0;
 }
 
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: #ee9d4b;
 }
 
 nav {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -26,14 +28,82 @@ nav {
 
 header {
   padding: 12% 0;
+  clear: both;
+}
+
+h1 {
+  font-family: "Vollkorn", serif;
+  color: #ed9ec7;
+  font-size: 60px;
+  margin: 0;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
+h3 {
+  color: #bf6b95;
+  font-family: "Vollkorn", serif;
+  margin: 5px;
 }
 
 section {
   min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  position: relative;
 }
 
 section:nth-child(even) {
-  background-color: #ddd;
+  background-color: #bf6b95;
+  color: #fae2e6;
+}
+
+section:nth-child(even) h3 {
+  color: #fae2e6;
+}
+
+img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+  padding: 15px;
+}
+
+.curve {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: #fae2e6;
+}
+
+.curve path {
+  fill: #bf6b95;
+  width: 100%;
+}
+
+div.curve {
+  font-size: 0;
+}
+
+.curve2 {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: #bf6b95;
+}
+
+.curve2 path {
+  fill: #fae2e6;
+  width: 100%;
+}
+
+ul {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 }
