@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Vollkorn", serif;
   font-size: 20px;
   color: #444;
   text-align: center;
@@ -14,12 +14,13 @@ body {
 
 nav,
 footer {
-  padding: 1% 0;
   background-color: #ee9d4b;
+  color: #fae2e6;
+  font-size: 14px;
 }
 
 nav {
-  position: relative;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -28,7 +29,6 @@ nav {
 
 header {
   padding: 12% 0;
-  clear: both;
 }
 
 h1 {
@@ -46,6 +46,12 @@ h3 {
   color: #bf6b95;
   font-family: "Vollkorn", serif;
   margin: 5px;
+  padding-left: 10px;
+}
+
+h4 {
+  color: #bf6b95;
+  margin: 5px;
 }
 
 section {
@@ -57,11 +63,11 @@ section {
 
 section:nth-child(even) {
   background-color: #bf6b95;
-  color: #fae2e6;
+  color: #fff;
 }
 
 section:nth-child(even) h3 {
-  color: #fae2e6;
+  color: #fff;
 }
 
 img {
@@ -106,4 +112,54 @@ div.curve {
 ul {
   margin-bottom: 0px;
   padding-bottom: 20px;
+}
+
+.burger-menu {
+  color: #fff;
+  text-align: left;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button.main-buttons {
+  border-radius: 30px;
+  background-color: #ee9d4b;
+  width: 140px;
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin: 20px;
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Vollkorn", serif;
+}
+
+.contact-icons {
+  display: inline-block;
+  height: 50px;
+  margin: 5% 10%;
+}
+
+.about-me-text {
+  padding: 0px 15px 35px;
+}
+
+@media only screen and (min-width: 600px) {
+  img {
+    float: right;
+    max-width: 40%;
+    padding: 2%;
+  }
+
+  img.contact-icons {
+    float: none;
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    padding: 0;
+    margin: 1%;
+  }
 }

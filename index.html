@@ -17,17 +17,19 @@
   </head>
   <body>
     <nav role="nagigation">
-      <button class="hamburger hamburger--spring" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"> </span>
-        </span>
-      </button>
+      <div class="burger-menu">
+        <button class="hamburger hamburger--spring" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"> </span>
+          </span>
+        </button>
+      </div>
     </nav>
     <main role="main">
       <header role="banner">
-        <h3>Oh hey!</h3>
+        <h4>Oh hey!</h4>
         <h1>I'm Molly</h1>
-        <h3>a fullstack web developer with an eye for design</h3>
+        <h4>a fullstack web developer with an eye for design</h4>
       </header>
       <section class="about-me">
         <div class="curve">
@@ -45,16 +47,13 @@
           </svg>
         </div>
         <h2>About Me</h2>
-        <p>
+        <p class="about-me-text">
           I'm a web developer who recently graduated from the Fullstack Web
-          Development program though Thinkful. After spending ten years as an
-          Executive Assistant, I was ready for a new challenge, and coding has
-          been the perfect way for me to use the skills I've developed as an EA
-          towards learning and growing in a new career path. At my core, I'm a
-          problem solver. I love taking complex problems and simplifying them
-          into something more logical, organized, and easily digestible. My
-          passion for great design means that I aim for pixel-perfect execution,
-          and am always thinking about how to make a great layout even better.
+          Development program though Thinkful. At my core, I'm a problem solver.
+          I love taking complex problems and simplifying them into something
+          more logical, organized, and easily digestible. My passion for great
+          design means that I aim for pixel-perfect execution, and am always
+          thinking about how to make a great layout even better.<br />
           <br />Aside from my love for elegant, clean code, I'm a huge plant and
           animal lover, and most nights you can find me hanging out in my
           apartment with my dog, Boz, and my cat, Theo.
@@ -76,15 +75,12 @@
           </svg>
         </div>
         <h2>Projects</h2>
-        <h3 href="https://restaurant-list-react.herokuapp.com/">Nom List</h3>
+        <h3>Nom List</h3>
         <img src="images/NL/signup_page copy.png" />
         <p>
           Nom List is an app that lets users search for restaurants in their
-          area, and create lists of restaurants they'd like to visit, for
-          tracking purposes. For the foodie who can't keep up with all the hot
-          new restaurants popping up, Nom List allows users to keep track of
-          where they've been, where they want to go, and any other list they can
-          think up.
+          area, and create lists of restaurants they'd like to visit, have
+          already visited, or any other category they'd like to keep track of.
         </p>
         <h3>Nom List was built with:</h3>
         <ul>
@@ -94,6 +90,20 @@
           <li>Node</li>
           <li>MongoDB</li>
         </ul>
+        <div class="button-container">
+          <button
+            class="main-buttons"
+            href="https://restaurant-list-react.herokuapp.com/"
+          >
+            Live
+          </button>
+          <button
+            class="main-buttons"
+            href="https://github.com/melfers/restaurant-list-app-react-capstone"
+          >
+            GitHub
+          </button>
+        </div>
       </section>
       <section>
         <div class="curve">
@@ -117,10 +127,7 @@
         <p>
           Green Thumb is an app that lets users log notes and watering dates on
           their houseplants so that they can track when they need to water the
-          plant next. For many plant owners, it can be hard to remember when
-          they last watered their various houseplants, or at what frequency a
-          certain plant needs watering. Green Thumb is the solution to tracking
-          watering dates to be sure that your plant stays happy and healthy.
+          plant next.
         </p>
         <h3>Green Thumb was built with:</h3>
         <ul>
@@ -130,6 +137,20 @@
           <li>Node</li>
           <li>MongoDB</li>
         </ul>
+        <div class="button-container">
+          <button
+            class="main-buttons"
+            href="https://node-capstone-plant-app.herokuapp.com/"
+          >
+            Live
+          </button>
+          <button
+            class="main-buttons"
+            href="https://github.com/melfers/node-capstone-plant-watering-app"
+          >
+            GitHub
+          </button>
+        </div>
       </section>
       <section>
         <div class="curve">
@@ -153,11 +174,8 @@
         </h3>
         <img src="images/Season/landingPage copy.png" />
         <p>
-          Season is an app that searches for recipes based on produce that is
-          in-season. The user selects a month that they'd like to find in-season
-          produce for, and is then shown a list of items that are available for
-          the selected month. After selecting one or more items, the user is
-          shown recipes that have the searched items as ingredients.
+          Season is an app that searches for recipes based on which produce is
+          in-season.
         </p>
         <h3>Season was built with:</h3>
         <ul>
@@ -166,10 +184,59 @@
           <li>HTML</li>
           <li>CSS</li>
         </ul>
+        <div class="button-container">
+          <button
+            class="main-buttons"
+            href="https://melfers.github.io/recipe-search-with-in-season-produce-api-capstone/"
+          >
+            Live
+          </button>
+          <button
+            class="main-buttons"
+            href="https://github.com/melfers/recipe-search-with-in-season-produce-api-capstone"
+          >
+            GitHub
+          </button>
+        </div>
+      </section>
+      <section>
+        <div class="curve">
+          <svg
+            class="curve"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1416.99 174.01"
+          >
+            <path
+              class="cls-1"
+              d="M0,280.8S283.66,59,608.94,163.56s437.93,150.57,808,10.34V309.54H0V280.8Z"
+              transform="translate(0 -135.53)"
+            />
+          </svg>
+        </div>
+        <h2>Contact</h2>
+        <p>Let's stay in touch!</p>
+        <div>
+          <img
+            href="https://github.com/melfers"
+            src="images/icons/github-logo.svg"
+            class="contact-icons"
+          />
+          <img
+            href="https://www.linkedin.com/in/melfers/"
+            src="images/icons/linkedin.svg"
+            class="contact-icons"
+          />
+          <img
+            href="mailto:elfers.molly@gmail.com"
+            src="images/icons/email.svg"
+            class="contact-icons"
+          />
+        </div>
       </section>
     </main>
     <footer role="content-info">
-      Footer
+      <p>Copyright Molly Elfers 2019</p>
     </footer>
   </body>
 </html>
