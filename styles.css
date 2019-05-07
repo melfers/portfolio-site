@@ -187,8 +187,12 @@ button.main-buttons {
     margin: 1%;
   }
 
+  h1 {
+    font-size: 90px;
+  }
+
   h4 {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   header {
