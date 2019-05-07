@@ -41,14 +41,15 @@ h1 {
 
 h2 {
   padding-left: 10px;
+  margin: 7px;
   font-family: "neato_serifregular", serif;
 }
 
 h3 {
   color: #bf6b95;
   font-family: "Vollkorn", serif;
-  margin: 5px;
-  padding-left: 10px;
+  margin: 7px;
+  padding-left: 12px;
 }
 
 h4 {
