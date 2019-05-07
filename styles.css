@@ -33,14 +33,15 @@ header {
 }
 
 h1 {
-  font-family: "Vollkorn", serif;
+  font-family: "neato_serifregular", serif;
   color: #ed9ec7;
-  font-size: 60px;
+  font-size: 80px;
   margin: 0;
 }
 
 h2 {
   padding-left: 10px;
+  font-family: "neato_serifregular", serif;
 }
 
 h3 {
@@ -53,6 +54,8 @@ h3 {
 h4 {
   color: #bf6b95;
   margin: 5px;
+  font-family: "neato_serifregular", serif;
+  font-size: 30px;
 }
 
 section {
