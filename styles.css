@@ -116,7 +116,7 @@ ul {
 
 .burger-menu {
   color: #fff;
-  text-align: left;
+  text-align: right;
 }
 
 .button-container {
@@ -147,6 +147,25 @@ button.main-buttons {
   padding: 0px 15px 35px;
 }
 
+.topNav {
+  display: none;
+}
+
+.topNav.responsive {
+  position: relative;
+  display: block;
+}
+
+.topNav.responsive a {
+  float: none;
+  display: inline-block;
+  font-size: 18px;
+  text-align: right;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+}
+
 @media only screen and (min-width: 600px) {
   img {
     float: right;
@@ -169,5 +188,25 @@ button.main-buttons {
 
   header {
     padding: 7%;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .topNav {
+    height: 1%;
+    font-size: 24px;
+    text-align: right;
+  }
+
+  .topNav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+  }
+
+  .topNav a:hover {
+    color: #ed9ec7;
   }
 }
