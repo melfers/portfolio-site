@@ -192,9 +192,9 @@ button.main-buttons {
 @media only screen and (min-width: 600px) {
   img {
     float: right;
-    max-width: 40%;
     padding: 2%;
     max-height: 400px;
+    margin: 2%;
   }
 
   img.contact-icons {
@@ -244,5 +244,9 @@ button.main-buttons {
 
   .topNav a:hover {
     color: #bf6b95;
+  }
+
+  .portfolio-text {
+    width: 50%;
   }
 }
