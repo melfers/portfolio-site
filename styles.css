@@ -182,6 +182,13 @@ button.main-buttons {
   padding: 5px 20px;
 }
 
+#logo {
+  float: left;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+}
+
 @media only screen and (min-width: 600px) {
   img {
     float: right;
@@ -192,11 +199,15 @@ button.main-buttons {
 
   img.contact-icons {
     float: none;
-    max-height: 100px;
-    width: 30%;
+    max-height: 75px;
+    width: 10%;
     display: inline-block;
     padding: 0;
     margin: 1%;
+  }
+
+  .contact-div {
+    text-align: center;
   }
 
   h1 {
@@ -226,7 +237,7 @@ button.main-buttons {
   .topNav a {
     text-decoration: none;
     color: #fff;
-    padding: 5px 20px;
+    padding: 10px 20px;
     text-align: right;
     display: inline-block;
   }
