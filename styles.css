@@ -154,8 +154,8 @@ button.main-buttons {
 
 .contact-icons {
   display: inline-block;
-  height: 50px;
-  margin: 5% 10%;
+  width: 30%;
+  max-height: 50px;
 }
 
 .about-me-text {
@@ -191,7 +191,7 @@ button.main-buttons {
 
   img.contact-icons {
     float: none;
-    height: 100px;
+    max-height: 100px;
     width: 30%;
     display: inline-block;
     padding: 0;
