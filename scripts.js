@@ -1,3 +1,4 @@
+//Animation for hamburger menu show/hide
 var hamburger = document.querySelector(".hamburger");
 var topNav = document.getElementById("myTopNav");
 
@@ -10,6 +11,7 @@ hamburger.addEventListener("click", function() {
   }
 });
 
+//Autoscroll functionality
 function debounce(func, wait, immediate) {
   var timeout;
   return function() {
