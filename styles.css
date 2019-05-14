@@ -183,10 +183,7 @@ button.main-buttons {
 }
 
 #logo {
-  float: left;
-  font-size: 20px;
-  color: #fff;
-  padding: 10px;
+  display: none;
 }
 
 @media only screen and (min-width: 600px) {
@@ -248,5 +245,13 @@ button.main-buttons {
 
   .portfolio-text {
     width: 50%;
+  }
+
+  #logo {
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
   }
 }
